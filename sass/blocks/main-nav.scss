@@ -23,4 +23,11 @@
     width: auto;
     margin: 0;
   }
+
+  .main-nav__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 640px;
+    margin: 0 auto;
+  }
 }
