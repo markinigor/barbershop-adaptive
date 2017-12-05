@@ -1,0 +1,19 @@
+.site-list {
+  /* Временно для сетки */
+  min-height: 255px;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    width: 570px;
+
+    /* Временно для сетки */
+    min-height: 70px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    width: 780px;
+  }
+}
