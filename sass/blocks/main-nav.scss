@@ -1,6 +1,11 @@
 .main-nav {
+  position: relative;
+
   width: 320px;
+  min-height: 51px;
   margin: 0 auto;
+
+  background-color: #826550;
 }
 
 .main-nav__list {
