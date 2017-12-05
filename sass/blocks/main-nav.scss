@@ -17,3 +17,10 @@
   /* Временно для сетки */
   min-height: 255px;
 }
+
+@media (min-width: $tablet-width) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+  }
+}
