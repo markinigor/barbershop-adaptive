@@ -105,8 +105,8 @@ gulp.task('copy', function() {
 
 gulp.task('clean', function() {
     return del('build');
-})
+});
 
 gulp.task('build', function(done) {
     run('clean', 'copy', 'style', 'uglify', 'sprite', 'html', done);
-})
+});
