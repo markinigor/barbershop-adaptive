@@ -39,6 +39,7 @@
 
 @media (min-width: $desktop-width) {
   .stats {
+    display: flex;
     width: 960px;
     margin-top: -160px;
   }
