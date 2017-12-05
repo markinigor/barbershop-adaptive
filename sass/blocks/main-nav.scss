@@ -83,13 +83,16 @@
   padding: 0;
 
   list-style: none;
-
-  /* Временно для сетки */
-  min-height: 50px;
 }
 
 @media (max-width: $mobile-width-only) {
+  .main-nav--closed .site-list {
+    display: none;
+  }
 
+  .main-nav--closed .user-list {
+    display: none;
+  }
 }
 
 @media (min-width: $tablet-width) {
