@@ -86,11 +86,15 @@
 }
 
 @media (max-width: $mobile-width-only) {
-  .main-nav--closed .site-list {
+  .main-nav--closed .site-list__item {
     display: none;
+
+    &--active {
+      display: block;
+    }
   }
 
-  .main-nav--closed .user-list {
+  .main-nav--closed .user-list__item {
     display: none;
   }
 }
