@@ -1,0 +1,8 @@
+@mixin no-outline($radius) {
+  outline: none;
+  background: transparent;
+
+  &::before {
+    display: none;
+  }
+}
