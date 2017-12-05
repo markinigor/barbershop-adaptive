@@ -132,6 +132,32 @@
   }
 }
 
+.main-nav--nojs .main-nav__toggle {
+  display: none;
+}
+
+.main-nav--nojs .main-nav__wrapper {
+  position: static;
+  min-height: 0;
+}
+
+.main-nav--nojs .site-list__item {
+  display: block;
+}
+
+.main-nav--nojs .site-list__item--active a {
+  padding-right: 21px;
+  padding-left: 21px;
+
+  text-align: left;
+}
+
+.main-nav--nojs .user-list__item {
+  dislplay: block;
+
+  background-color: #6a4d38;
+}
+
 @media (min-width: $tablet-width) {
   .main-nav {
     width: auto;
