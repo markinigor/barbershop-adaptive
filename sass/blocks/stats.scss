@@ -43,4 +43,15 @@
     width: 960px;
     margin-top: -160px;
   }
+
+  .stats__header {
+    width: 240px;
+
+    /* Временно для сетки */
+    min-height: 263px;
+  }
+
+  .stats__list {
+    width: 640px;
+  }
 }
