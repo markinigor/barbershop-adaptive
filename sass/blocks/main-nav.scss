@@ -88,6 +88,10 @@
   min-height: 50px;
 }
 
+@media (max-width: $mobile-width-only) {
+
+}
+
 @media (min-width: $tablet-width) {
   .main-nav {
     width: auto;
