@@ -20,5 +20,15 @@
   width: 100%;
 
   /* Временно для сетки */
-  min-height: 320px;
+  height: 320px;
+}
+
+@media (min-width: $tablet-width) {
+  .stats {
+    width: 640px;
+    margin-top: -185px;
+
+    /* Временно для сетки */
+    min-height: 0;
+  }
 }
