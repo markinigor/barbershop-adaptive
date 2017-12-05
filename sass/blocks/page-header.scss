@@ -41,5 +41,7 @@
 @media (min-width: $desktop-width) {
   .page-header__logo {
     height: 648px;
+    background-position: center 0;
+    background-size: cover;
   }
 }
