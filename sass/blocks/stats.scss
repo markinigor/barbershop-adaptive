@@ -36,3 +36,10 @@
     display: flex;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .stats {
+    width: 960px;
+    margin-top: -160px;
+  }
+}
