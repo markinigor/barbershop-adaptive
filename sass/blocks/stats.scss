@@ -147,7 +147,7 @@
   }
 
   .stats__slogan {
-    width: 240px;
+    width: 50%;
     margin-bottom: 18px;
 
     font-size: 40px;
@@ -161,9 +161,10 @@
   }
 
   .stats__intro {
-    width: 210px;
+    width: 37.5%;
     margin-top: 5px;
-    padding-right: 47px;
+    padding: 0;
+    padding-left: 30px;
 
     text-align: left;
 
