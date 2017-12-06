@@ -160,6 +160,10 @@
     outline-offset: -5px;
   }
 
+  .stats__slogan br {
+    display: none;
+  }
+
   .stats__intro {
     width: 37.5%;
     margin-top: 5px;
@@ -175,7 +179,7 @@
 
   .stats__legend--top {
     display: block;
-    width: 240px;
+    width: 50%;
 
     color: rgba(0, 0, 0, 0.3);
 
