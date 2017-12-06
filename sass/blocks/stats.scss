@@ -179,6 +179,12 @@
     flex-wrap: wrap;
   }
 
+  .stats__list tr {
+    width: 250px;
+    padding: 25px 35px;
+    padding-bottom: 28px;
+  }
+
   .stats__list {
     display: flex;
   }
