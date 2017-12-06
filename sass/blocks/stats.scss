@@ -222,10 +222,12 @@
   }
 
   .stats__header {
+    display: block;
     width: 240px;
 
-    /* Временно для сетки */
-    min-height: 263px;
+    &::before {
+      top: 22px;
+    }
   }
 
   .stats__list {
