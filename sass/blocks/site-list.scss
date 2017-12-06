@@ -45,6 +45,23 @@
     &:last-child {
       margin-right: 0;
     }
+
+    &--active {
+      position: relative;
+
+      &::after {
+        content: "";
+
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        left: 0;
+
+        height: 3px;
+
+        background: #826550;
+      }
+    }
   }
 
   .site-list__item a {
