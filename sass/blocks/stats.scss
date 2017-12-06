@@ -126,6 +126,9 @@
   .stats__header {
     position: relative;
 
+    display: flex;
+    flex-wrap: wrap;
+
     min-height: 129px;
 
     &::before {
