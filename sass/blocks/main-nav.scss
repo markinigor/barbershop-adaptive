@@ -167,8 +167,20 @@
   .main-nav__wrapper {
     display: flex;
     justify-content: space-between;
+
     width: 640px;
+
     margin: 0 auto;
+
+    /* Временно для резиновой сетки */
+    outline: 2px solid red;
+    outline-offset: 3px;
+  }
+
+  .main-nav__list {
+    /* Временно для резиновой сетки */
+    outline: 2px solid yellow;
+    outline-offset: -3px;
   }
 
   .main-nav__toggle {
