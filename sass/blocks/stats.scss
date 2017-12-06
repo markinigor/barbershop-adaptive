@@ -1,9 +1,6 @@
 .stats {
   width: 320px;
   margin: 0 auto;
-
-  /* Временно для сетки */
-  min-height: 570px;
 }
 
 .stats__header {
@@ -12,8 +9,9 @@
   padding-bottom: 25px;
   padding-left: 40px;
 
-  /* Временно для сетки */
-  min-height: 130px;
+  color: #000000;
+
+  background-color: #ffffff;
 }
 
 .stats__list {
