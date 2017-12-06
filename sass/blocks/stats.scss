@@ -208,6 +208,10 @@
     text-align: left;
   }
 
+  .stats__field br {
+    display: none;
+  }
+
 }
 
 @media (min-width: $desktop-width) {
