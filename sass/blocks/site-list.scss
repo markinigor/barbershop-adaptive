@@ -32,10 +32,11 @@
 
 @media (min-width: $tablet-width) {
   .site-list {
-    width: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 
-    /* Временно для сетки */
-    min-height: 70px;
+    width: 570px;
   }
 }
 
