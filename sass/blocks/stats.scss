@@ -84,6 +84,36 @@
   }
 }
 
+.stats__value,
+.stats__field {
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 19px;
+
+  vertical-align: top;
+}
+
+.stats__value {
+  padding-right: 0;
+
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.stats__value sup {
+  top: -0.35em;
+
+  margin-left: 5px;
+}
+
+.stats__field {
+  padding-left: 0;
+
+  font-size: 18px;
+  line-height: 18px;
+  text-align: right;
+}
+
 @media (min-width: $tablet-width) {
   .stats {
     width: 640px;
