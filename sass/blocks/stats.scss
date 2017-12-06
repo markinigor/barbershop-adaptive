@@ -202,7 +202,8 @@
   }
 
   .stats__list tr {
-    width: 250px;
+    width: 50%;
+    box-sizing: border-box;
     padding: 25px 35px;
     padding-bottom: 28px;
   }
