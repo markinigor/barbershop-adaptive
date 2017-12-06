@@ -141,9 +141,6 @@
       border-bottom-color: #ffffff;
       transform: rotate(45deg);
     }
-
-    /* Временно для резиновой сетки*/
-    outline: 2px solid red;
   }
 
   .stats__slogan {
@@ -154,10 +151,6 @@
     line-height: 40px;
     text-align: left;
     text-transform: none;
-
-    /* Временно для резиновой сетки*/
-    outline: 2px solid green;
-    outline-offset: -5px;
   }
 
   .stats__slogan br {
@@ -171,10 +164,6 @@
     padding-left: 30px;
 
     text-align: left;
-
-    /* Временно для резиновой сетки*/
-    outline: 2px solid green;
-    outline-offset: -5px;
   }
 
   .stats__legend--top {
@@ -182,10 +171,6 @@
     width: 50%;
 
     color: rgba(0, 0, 0, 0.3);
-
-    /* Временно для резиновой сетки*/
-    outline: 2px solid green;
-    outline-offset: -5px;
   }
 
   .stats__legend--bottom {
