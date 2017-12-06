@@ -33,6 +33,33 @@
   text-align: center;
 }
 
+.stats__legend {
+  display: block;
+
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.stats__legend--bottom {
+  padding-top: 20px;
+  padding-bottom: 14px;
+
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+
+  background-color: $bg-darkgrey;
+}
+
+.stats__legend--top {
+  display: none;
+}
+
+.stats__legend sup {
+  top: -0.25em;
+
+  font-size: 90%;
+}
+
 .stats__list {
   width: 100%;
 
