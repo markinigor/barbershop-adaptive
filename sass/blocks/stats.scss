@@ -242,6 +242,7 @@
 
   .stats__header {
     //display: block;
+    flex-direction: column;
     width: 240px;
 
     &::before {
