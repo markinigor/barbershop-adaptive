@@ -170,6 +170,10 @@
     width: 640px;
     margin: 0 auto;
   }
+
+  .main-nav__toggle {
+    display: none;
+  }
 }
 
 @media (min-width: $desktop-width) {
