@@ -116,7 +116,7 @@
 @media (min-width: $tablet-width) {
   .stats {
     width: 84%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
     margin-top: -185px;
   }
@@ -236,12 +236,13 @@
 @media (min-width: $desktop-width) {
   .stats {
     display: flex;
-    width: 960px;
+    //width: 960px;
     margin-top: -160px;
   }
 
   .stats__header {
     //display: block;
+    flex-grow: 1;
     flex-direction: column;
     width: 240px;
 
@@ -269,6 +270,7 @@
 
   .stats__list {
     display: flex;
+    flex-grow: 1;
     width: 640px;
   }
 }
