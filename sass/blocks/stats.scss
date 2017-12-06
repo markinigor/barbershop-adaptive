@@ -185,6 +185,12 @@
     padding-bottom: 28px;
   }
 
+  .stats__list td {
+    display: block;
+    width: auto;
+    padding: 0;
+  }
+
   .stats__list {
     display: flex;
   }
