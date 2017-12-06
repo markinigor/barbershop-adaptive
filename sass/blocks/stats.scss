@@ -259,10 +259,12 @@
     width: auto;
     margin-bottom: 32px;
     padding-right: 30px;
+    padding-left: 0;
   }
 
   .stats__legend--top {
     width: auto;
+    margin-top: auto;
   }
 
   .stats__list {
