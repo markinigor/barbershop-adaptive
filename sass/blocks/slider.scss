@@ -5,6 +5,8 @@
 .slider__toggles {
   position: absolute;
   //height: 10px;
+  right: 0;
+  left: 0;
 
   text-align: center;
   font-size: 0;
@@ -12,15 +14,15 @@
 
 .slider__toggle {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   margin-right: 23px;
 
   vertical-align: top;
 
   border: 1px solid #cccccc;
 
-  //transform: rotate(45deg);
+  transform: rotate(45deg);
   cursor: pointer;
 
   &:last-child {
