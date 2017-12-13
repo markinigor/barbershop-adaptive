@@ -1,9 +1,12 @@
 .news {
+  position: relative;
   width: auto;
   padding-top: 67px;
+
+  border-bottom: 1px solid #e5ddd5;
+
   background-color: #f8f5f2;
   color: #000000;
-  position: relative;
 
   &::before {
     content: "";
@@ -146,6 +149,7 @@
   .news__title {
     margin-left: 70px;
   }
+
   .news__item:nth-child(n + 3) {
     display: flex;
   }
